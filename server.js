@@ -13,8 +13,7 @@ const server = http.createServer((req, res) => {
           height: 100vh;
           display: flex;
           justify-content: center;
-          align-items: center;
-          background-color: #000;
+          background-color: #e1e0ddff;
         }
 
         .card {
@@ -22,18 +21,19 @@ const server = http.createServer((req, res) => {
           padding: 40px 60px;
           border-radius: 8px;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
-          text-align: center;
         }
 
         .info {
-          font-family: Helvetica, Arial, sans-serif;
+          font-family: Inter Tight, serif;
           font-size: 18px;
+          text-align: left;
         }
 
         .quote {
-          font-family: "Garamond", serif;
+          font-family: Inter Tight, serif;
           font-size: 36px;
           font-style: italic;
+          text-align: center;
           margin-top: 20px;
         }
       </style>
@@ -41,7 +41,7 @@ const server = http.createServer((req, res) => {
     <body>
       <div class="card">
         <div class="info">
-          <h1>Christian Jay C. Godinez</h1>
+          <h1>CHRISTIAN JAY C. GODINEZ</h1>
           <h2>BSIT BA 4102</h2>
         </div>
 
